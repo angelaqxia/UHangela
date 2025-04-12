@@ -1,0 +1,133 @@
+/*
+    Name:Angela Xia
+    Date created:2/24/2025
+    Date last edited: 3/8/2025
+    Description: Homework 2 CSS Form
+*/
+
+header {
+    width: 100%;
+    background-color:#df8a9583;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #df8a9583;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+}
+
+form {
+    flex-grow: 1;
+}
+
+h1 {
+    text-align:  center;
+    font-family:"Gill Sans", Calibri;
+    font-weight: 560px;
+    flex-grow: 1;
+}
+
+main {
+    text-align: center;
+    font-family: "Copperplate", fantasy;
+    font-weight: normal;
+    flex-grow: 1;
+}
+
+.image {
+    text-align: left;
+}
+
+.td {
+    text-align: right;
+    font-family:"optima", sans-serif;
+    font-weight: normal;
+}
+
+footer {
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    background-color:#df8a9583;
+    height: 2.0 rem;
+}
+
+#footer {
+    text-align: right;
+    font-family: "optima", sans-serif; 
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+label {
+    text-align: right;
+    font-family: "optima", sans-serif; 
+    font-weight: normal;
+}
+
+input {
+    text-align: left;
+    font-family: "optima", sans-serif; 
+    font-weight: normal;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+.password-message {
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+    background: transparent;
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 20px;
+    color: red;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    gap: 10px; /* Add space between children */
+}
+
+#review {
+    margin-top: 5px;
+}
+
+table.output,
+tr.output,
+td.output {
+    margin: 0 auto;
+    width: 500px;
+    background-color: hotpink;
+    padding: 10px;
+    border: 1px solid;
+    border-spacing: 2px;
+    border-radius: 20px;
+    table-layout: fixed;
+    word-wrap: break-word;
+    color: black;
+}
+td.output {
+    text-align: center;
+    width: 500px;
+    background-color: hotpink;
+    padding: 10px;
+    border-spacing: 2px;
+}
+
+#showInput {
+    text-align: center;
+}
+
