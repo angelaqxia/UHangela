@@ -32,7 +32,7 @@ function validateFirstName() {
         return false;
     } else if (firstname.length < 1) {
         document.getElementById("firstname-error").innerHTML = 
-        "First name has have at least 1 or character.";
+        "First name cannot be less than 1 character.";
         return false;
     } else if (firstname.length > 30) {
         document.getElementById("firstname-error").innerHTML = 
@@ -76,9 +76,9 @@ function validateLastName() {
         document.getElementById("lastname-error").innerHTML = 
         "Letters, apostrophes, and dashes only.";
         return false;
-    } else if (lastname.length < 2) {
+    } else if (lastname.length < 1) {
         document.getElementById("lastname-error").innerHTML = 
-        "Last name cannot be less than 2 characters.";
+        "Last name cannot be less than 1 character.";
         return false;
     } else if (lastname.length > 30) {
         document.getElementById("lastname-error").innerHTML = 
